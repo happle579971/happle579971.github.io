@@ -1,5 +1,16 @@
-function sayThatWasEasy (){
-var thatWasEasy= new Audio("wbs.mp3");
-thatWasEasy.play();
+function setup (){
+    createCanvas(480,600);
 }
-$("#easy").on("click", sayThatWasEasy);
+
+//function pushed(){
+function draw(){
+    fill(255,255,255);
+    ellipse(width/2,height/2, circleDiameter,circleDiameter);
+}
+//}
+
+
+
+
+
+("#easy").on("click", pushed);
